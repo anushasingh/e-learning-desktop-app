@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="650.0" minWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyProfileController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" minHeight="650.0" minWidth="1024.0" prefHeight="160.0" prefWidth="200.0">
+        <items>
+          <AnchorPane fx:id="side_pane" maxHeight="650.0" maxWidth="199.0" minHeight="650.0" minWidth="199.0" prefHeight="650.0" prefWidth="199.0" />
+          <AnchorPane fx:id="main_pane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: #89bae4;">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#378eda" height="480.0" layoutX="74.0" layoutY="31.0" stroke="#00000001" strokeType="INSIDE" width="306.0" />
+                  <ImageView fx:id="results" fitHeight="127.0" fitWidth="158.0" layoutX="147.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/fourth.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="graphs" fitHeight="127.0" fitWidth="158.0" layoutX="147.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/graph.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust contrast="0.02" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="365.0" fitWidth="593.0" layoutX="457.0" layoutY="416.0" opacity="0.43" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/boy2shadow.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="128.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Performance Graphs " wrappingWidth="215.0">
+                     <font>
+                        <Font name="Agency FB" size="31.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="184.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Results" wrappingWidth="84.0">
+                     <font>
+                        <Font name="Agency FB" size="31.0" />
+                     </font>
+                  </Text>
+                  <Circle fill="#2197ff" layoutX="603.0" layoutY="256.0" radius="127.0" stroke="TRANSPARENT" strokeType="INSIDE">
+                     <effect>
+                        <InnerShadow choke="0.16" color="#79121233" height="68.44" radius="24.825" width="32.86" />
+                     </effect></Circle>
+                  <Text fill="#eeeeee" layoutX="520.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome,">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="232.0" fitWidth="406.0" layoutX="447.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/boy3.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="name" alignment="CENTER" contentDisplay="CENTER" layoutX="558.0" layoutY="256.0" text="Label" textFill="#213c54">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

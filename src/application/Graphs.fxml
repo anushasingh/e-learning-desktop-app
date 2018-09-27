@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="650.0" maxWidth="1024.0" minHeight="650.0" minWidth="1024.0" prefHeight="650.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GraphsController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" prefHeight="650.0" prefWidth="1024.0">
+        <items>
+          <AnchorPane fx:id="side_pane" maxHeight="650.0" maxWidth="199.0" minHeight="650.0" minWidth="199.0" prefHeight="650.0" prefWidth="199.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="530.0" prefWidth="647.0" style="-fx-background-color: #C5CAE9;">
+               <children>
+                  <ChoiceBox fx:id="branch" layoutX="62.0" layoutY="54.0" prefHeight="27.0" prefWidth="217.0" style="-fx-background-color: #E8EAF6;" />
+                  <BarChart fx:id="barchart1" layoutX="46.0" layoutY="138.0" maxHeight="600.0" maxWidth="800.0" minHeight="420.0" minWidth="544.0" prefHeight="497.0" prefWidth="721.0">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis fx:id="yAxis" side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+                  <ChoiceBox fx:id="testtopic" layoutX="310.0" layoutY="54.0" prefHeight="27.0" prefWidth="217.0" style="-fx-background-color: #E8EAF6;" />
+                  <Label layoutX="62.0" layoutY="14.0" prefHeight="31.0" prefWidth="172.0" text="Choose your branch :" textFill="#291d9a">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="310.0" layoutY="16.0" text="Choose Test Topic :" textFill="#291d9a">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label" layoutX="76.0" layoutY="118.0" text="*In case of multiple attempts best performance in each topic is choosen for analysis" textFill="#4919b2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="speed" fitHeight="42.0" fitWidth="36.0" layoutX="748.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/arrow2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="accuracy" fitHeight="42.0" fitWidth="36.0" layoutX="748.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/arrow2.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="587.0" layoutY="23.0" text="Speed Analysis" textFill="#291d9a">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="564.0" layoutY="74.0" text="Accuracy Analysis" textFill="#291d9a">
+                     <font>
+                        <Font name="System Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="ylabel" layoutX="-55.0" layoutY="370.0" textFill="#4559bf">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="349.0" layoutY="621.0" textFill="#4559bf" fx:id="xlabel">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="alert" layoutX="83.0" layoutY="90.0" prefHeight="31.0" prefWidth="424.0" text="Label" textFill="#4919b2">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

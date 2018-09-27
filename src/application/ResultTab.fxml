@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="650.0" maxWidth="1024.0" minHeight="650.0" minWidth="1024.0" prefHeight="650.0" prefWidth="1024.0" style="-fx-background-color: #245655;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ResultsTabController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" prefHeight="650.0" prefWidth="1024.0">
+        <items>
+          <AnchorPane fx:id="side_pane" maxWidth="199.0" minHeight="0.0" minWidth="199.0" prefHeight="199.0" prefWidth="199.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: #C5CAE9;">
+               <children>
+                  <TableView fx:id="resulttable" layoutX="93.0" layoutY="28.0" prefHeight="465.0" prefWidth="696.0" style="-fx-background-color: #E3F2FD;">
+                    <columns>
+                        <TableColumn fx:id="testname" prefWidth="113.0" text="Test Name" />
+                        <TableColumn fx:id="max_marks" prefWidth="83.0" text="Max Marks" />
+                        <TableColumn fx:id="obt_marks" prefWidth="96.0" text="Marks Obtained" />
+                        <TableColumn fx:id="timetaken" minWidth="0.0" prefWidth="78.0" text="Time Taken" />
+                        <TableColumn fx:id="attempt" prefWidth="95.0" text="Attempt no." />
+                      <TableColumn fx:id="testbranch" minWidth="0.0" prefWidth="99.0" text="Test Branch" />
+                        <TableColumn fx:id="datetime" prefWidth="131.0" text="Date and time" />
+                    </columns>
+                  </TableView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a54040" height="57.0" layoutY="591.0" stroke="TRANSPARENT" strokeType="INSIDE" width="817.0" />
+                  <ImageView fitHeight="174.0" fitWidth="137.0" layoutX="27.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/bagg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="106.0" fitWidth="164.0" layoutX="680.0" layoutY="501.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/set.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="116.0" fitWidth="55.0" layoutX="309.0" layoutY="499.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/penstand.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="96.0" fitWidth="41.0" layoutX="-6.0" layoutY="541.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/bott.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="33.0" fitWidth="146.0" layoutX="185.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/down.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="25.0" fitWidth="122.0" layoutX="208.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/upppp.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="73.0" fitWidth="41.0" layoutX="639.0" layoutY="541.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/compass.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="coursesanchorpane" prefHeight="650.0" prefWidth="950.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ExpertAdviceController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" prefHeight="650.0" prefWidth="1024.0">
+        <items>
+          <AnchorPane fx:id="side_pane" maxHeight="650.0" maxWidth="199.0" minHeight="650.0" minWidth="199.0" prefHeight="650.0" prefWidth="199.0" />
+          <AnchorPane fx:id="expertanchor" maxHeight="650.0" maxWidth="825.0" minHeight="650.0" minWidth="825.0" prefHeight="650.0" prefWidth="825.0" stylesheets="@../../bin/application/application.css">
+               <children>
+                  <ImageView fitHeight="652.0" fitWidth="850.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/Untitled-4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="384.0" fitWidth="191.0" layoutX="2.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/teahcer3%20-%20Copy.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="227.0" fitWidth="243.0" layoutX="255.0" layoutY="69.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/board1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="329.0" fitWidth="321.0" layoutX="223.0" layoutY="285.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/board2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="340.0" fitWidth="260.0" layoutX="479.0" layoutY="62.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/boarrd3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="96.0" fitWidth="120.0" layoutX="11.0" layoutY="56.0" opacity="0.74" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/xzc.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="75.0" layoutX="81.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/atom.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="137.0" fitWidth="191.0" layoutX="637.0" layoutY="516.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/graphh.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="46.0" fitWidth="157.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/Untitled-11.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="83.0" fitWidth="75.0" layoutX="534.0" layoutY="584.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/xyz.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="98.0" layoutX="210.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/graph3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="75.0" layoutX="768.0" layoutY="464.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/cap.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="129.0" fitWidth="296.0" layoutX="255.0" layoutY="374.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/board1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="first" fitHeight="158.0" fitWidth="223.0" layoutX="255.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/a.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="second" fitHeight="158.0" fitWidth="232.0" layoutX="498.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/b.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="third" fitHeight="158.0" fitWidth="223.0" layoutX="498.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/c.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="fourth" fitHeight="158.0" fitWidth="223.0" layoutX="255.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/d.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

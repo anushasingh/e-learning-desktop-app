@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="coursesanchorpane" prefHeight="650.0" prefWidth="950.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CoursesController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" prefHeight="650.0" prefWidth="1024.0">
+        <items>
+          <AnchorPane fx:id="side_pane" maxHeight="650.0" maxWidth="199.0" minHeight="650.0" minWidth="199.0" prefHeight="650.0" prefWidth="199.0" />
+          <AnchorPane maxHeight="650.0" maxWidth="825.0" minHeight="650.0" minWidth="825.0" prefHeight="650.0" prefWidth="825.0">
+               <children>
+                  <ImageView fitHeight="666.0" fitWidth="896.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/1212.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ee2" fitHeight="527.0" fitWidth="147.0" layoutX="493.0" layoutY="-77.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/yelloww.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ee1" fitHeight="527.0" fitWidth="147.0" layoutX="286.0" layoutY="-86.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/redd.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="209.0" fitWidth="282.0" layoutX="543.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/child.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="cs" fitHeight="524.0" fitWidth="153.0" layoutX="61.0" layoutY="-75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/jblue.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

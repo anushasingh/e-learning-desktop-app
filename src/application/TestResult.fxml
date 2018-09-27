@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="650.0" maxWidth="1024.0" minHeight="650.0" minWidth="1024.0" prefHeight="650.0" prefWidth="1024.0" style="-fx-background-color: #00a9a6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TestResultController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" prefHeight="160.0" prefWidth="200.0">
+        <items>
+          <AnchorPane fx:id="side_pane" maxHeight="650.0" maxWidth="199.0" minHeight="650.0" minWidth="199.0" prefHeight="650.0" prefWidth="199.0" />
+          <AnchorPane maxHeight="650.0" maxWidth="825.0" minHeight="650.0" minWidth="825.0" prefHeight="650.0" prefWidth="825.0" style="-fx-background-color: #00a9a6;">
+               <children>
+                  <ImageView fitHeight="278.0" fitWidth="223.0" layoutX="638.0" layoutY="-139.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/darkbluebook.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="395.0" fitWidth="301.0" layoutX="675.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/lightblue.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="286.0" fitWidth="234.0" layoutX="-92.0" layoutY="493.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/yellowwbook.png" />
+                     </image>
+                  </ImageView>
+                  <Circle fill="#7ac0ca" layoutX="389.0" layoutY="374.0" radius="224.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                  <ImageView fitHeight="428.0" fitWidth="259.0" layoutX="-115.0" layoutY="-75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/bluebook.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="354.0" fitWidth="318.0" layoutX="226.0" layoutY="-252.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/yellow.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="321.0" fitWidth="542.0" layoutX="118.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/midbook.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust contrast="-0.04" />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="185.0" layoutY="327.0" prefHeight="47.0" prefWidth="148.0" text="TIME TAKEN:" textFill="#517ec6">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="213.0" layoutY="211.0" prefHeight="40.0" prefWidth="92.0" text="SCORE:" textFill="#517ec6">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#408ed69c" height="83.0" layoutX="184.0" layoutY="244.0" stroke="TRANSPARENT" strokeType="INSIDE" width="140.0">
+                     <effect>
+                        <InnerShadow color="#00000084" />
+                     </effect>
+                  </Rectangle>
+                  <Label fx:id="maxmarks" layoutX="259.0" layoutY="256.0" prefHeight="59.0" prefWidth="52.0" text="25" textFill="#1e4989">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="240.0" layoutY="256.0" prefHeight="59.0" prefWidth="30.0" text="/" textFill="#1e4989">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="marksobtained" layoutX="211.0" layoutY="256.0" prefHeight="59.0" prefWidth="30.0" text="4" textFill="#1e4989">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="432.0" layoutY="367.0" prefHeight="47.0" prefWidth="70.0" text="TAKE" textFill="#3c5e90">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="495.0" layoutY="367.0" prefHeight="47.0" prefWidth="119.0" text="ANOTHER" textFill="#3c5e90">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="477.0" layoutY="417.0" prefHeight="25.0" prefWidth="77.0" text="TEST" textFill="#3c5e90">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="anothertest" fitHeight="59.0" fitWidth="59.0" layoutX="541.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/arrow2.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust contrast="1.0" hue="-0.65" saturation="0.46" />
+                     </effect>
+                  </ImageView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#408ed69c" height="107.0" layoutX="181.0" layoutY="367.0" stroke="TRANSPARENT" strokeType="INSIDE" width="148.0">
+                     <effect>
+                        <InnerShadow color="#00000084" />
+                     </effect>
+                  </Rectangle>
+                  <Label fx:id="timetaken" layoutX="213.0" layoutY="367.0" prefHeight="107.0" prefWidth="92.0" text="23 min" textFill="#1e4989">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="417.0" layoutY="228.0" prefHeight="47.0" prefWidth="119.0" text="EVALUATE" textFill="#3c5e90">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="546.0" layoutY="228.0" prefHeight="47.0" prefWidth="77.0" text="YOUR" textFill="#3c5e90">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="452.0" layoutY="275.0" prefHeight="47.0" prefWidth="92.0" text="RESULT" textFill="#3c5e90">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="evaluate" fitHeight="59.0" fitWidth="52.0" layoutX="547.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <ColorAdjust contrast="1.0" hue="-0.65" saturation="0.46" />
+                     </effect>
+                     <image>
+                        <Image url="@../Images/arrow2.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="650.0" minWidth="1024.0" prefHeight="650.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CseCoursesController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" layoutY="-1.0" prefHeight="160.0" prefWidth="200.0">
+        <items>
+          <AnchorPane fx:id="side_pane" minHeight="650.0" minWidth="199.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="650.0" minWidth="825.0" prefHeight="650.0" prefWidth="100.0" style="-fx-background-color: #3498DB;">
+               <children>
+                  <ImageView fitHeight="1024.0" fitWidth="1024.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/nbn.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="-0.09" contrast="-0.19" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="106.0" layoutX="623.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/notebook.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="49.0" fitWidth="54.0" layoutX="480.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/pd2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="49.0" fitWidth="54.0" layoutX="496.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/pd1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="43.0" fitWidth="54.0" layoutX="735.0" layoutY="580.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/paperclip2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="22.0" fitWidth="145.0" layoutX="507.0" layoutY="617.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/pencil1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="37.0" fitWidth="161.0" layoutX="540.0" layoutY="590.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/pencil2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="62.0" fitWidth="62.0" layoutX="731.0" layoutY="508.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/postit.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="62.0" fitWidth="88.0" layoutX="537.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/specks.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="228.0" fitWidth="293.0" layoutX="552.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/pcc.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="49.0" fitWidth="54.0" layoutX="744.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/mouse.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="539.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/keyy.png" />
+                     </image>
+                  </ImageView>
+                  <ScrollPane layoutX="69.0" layoutY="50.0" minHeight="379.0" minWidth="342.0" prefHeight="560.0" prefWidth="342.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="319.0" prefHeight="837.0" prefWidth="326.0" style="-fx-background-color: #3C789F;">
+                           <children>
+                              <Button fx:id="btn1" layoutX="23.0" layoutY="25.0" mnemonicParsing="false" opacity="0.95" prefHeight="68.0" prefWidth="293.0" style="-fx-background-color: #bbdefb;">
+                                 <graphic>
+                                    <VBox prefHeight="33.0" prefWidth="224.0">
+                                       <children>
+                                          <Label prefHeight="60.0" prefWidth="278.0" text="     Teach Yourself SQL" textFill="#221414">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </graphic></Button>
+                              <Button fx:id="btn2" layoutX="23.0" layoutY="110.0" mnemonicParsing="false" opacity="0.95" prefHeight="68.0" prefWidth="293.0" style="-fx-background-color: #bbdefb;">
+                                 <graphic>
+                                    <VBox prefHeight="33.0" prefWidth="224.0">
+                                       <children>
+                                          <Label prefHeight="35.0" prefWidth="249.0" text="     Object Oriented ">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label prefHeight="35.0" prefWidth="249.0" text="     Programming">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="btn3" layoutX="23.0" layoutY="203.0" mnemonicParsing="false" opacity="0.95" prefHeight="68.0" prefWidth="293.0" style="-fx-background-color: #bbdefb;">
+                                 <graphic>
+                                    <VBox prefHeight="33.0" prefWidth="224.0">
+                                       <children>
+                                          <Label prefHeight="67.0" prefWidth="249.0" text="     Linux Fundamentals">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="btn4" layoutX="23.0" layoutY="286.0" mnemonicParsing="false" opacity="0.95" prefHeight="68.0" prefWidth="293.0" style="-fx-background-color: #bbdefb;">
+                                 <graphic>
+                                    <VBox prefHeight="70.0" prefWidth="242.0">
+                                       <children>
+                                          <Label prefHeight="35.0" prefWidth="265.0" text="     A Complete Guide to">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label prefHeight="35.0" prefWidth="290.0" text="     Programming in C++">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="btn5" layoutX="23.0" layoutY="380.0" mnemonicParsing="false" opacity="0.95" prefHeight="68.0" prefWidth="293.0" style="-fx-background-color: #bbdefb;">
+                                 <graphic>
+                                    <VBox prefHeight="70.0" prefWidth="242.0">
+                                       <children>
+                                          <Label prefHeight="58.0" prefWidth="295.0" text="     Computer architecture">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="btn6" layoutX="23.0" layoutY="469.0" mnemonicParsing="false" opacity="0.95" prefHeight="68.0" prefWidth="293.0" style="-fx-background-color: #bbdefb;">
+                                 <graphic>
+                                    <VBox prefHeight="70.0" prefWidth="242.0">
+                                       <children>
+                                          <Label prefHeight="35.0" prefWidth="254.0" text="     Data Structures and">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label prefHeight="35.0" prefWidth="249.0" text="     Algorithms">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="btn7" layoutX="23.0" layoutY="561.0" mnemonicParsing="false" opacity="0.95" prefHeight="68.0" prefWidth="293.0" style="-fx-background-color: #bbdefb;">
+                                 <graphic>
+                                    <VBox prefHeight="70.0" prefWidth="242.0">
+                                       <children>
+                                          <Label prefHeight="35.0" prefWidth="276.0" text="     Database Management">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                          <Label prefHeight="35.0" prefWidth="249.0" text="     System">
+                                             <font>
+                                                <Font size="24.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="btn8" layoutX="23.0" layoutY="657.0" mnemonicParsing="false" opacity="0.95" prefHeight="68.0" prefWidth="293.0" style="-fx-background-color: #bbdefb;">
+                                 <graphic>
+                                    <VBox prefHeight="70.0" prefWidth="242.0">
+                                       <children>
+                                          <Label prefHeight="61.0" prefWidth="249.0" text="     Computer Graphics">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="btn9" layoutX="23.0" layoutY="746.0" mnemonicParsing="false" opacity="0.95" prefHeight="68.0" prefWidth="293.0" style="-fx-background-color: #bbdefb;">
+                                 <graphic>
+                                    <VBox prefHeight="70.0" prefWidth="242.0">
+                                       <children>
+                                          <Label prefHeight="61.0" prefWidth="249.0" text="     Linux Fundamentals">
+                                             <font>
+                                                <Font size="23.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000026" height="91.0" layoutX="518.0" layoutY="286.0" stroke="#ffffff00" strokeType="INSIDE" width="241.0" />
+                  <Label layoutX="534.0" layoutY="294.0" text="Computer Science" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="584.0" layoutY="330.0" text="Courses" textFill="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

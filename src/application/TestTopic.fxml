@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TestTopicController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" prefHeight="515.0" prefWidth="546.0">
+        <items>
+          <AnchorPane fx:id="side_pane" maxHeight="650.0" maxWidth="199.0" minHeight="650.0" minWidth="199.0" prefHeight="650.0" prefWidth="199.0" />
+          <AnchorPane maxHeight="650.0" maxWidth="825.0" minHeight="650.0" minWidth="825.0" prefHeight="650.0" prefWidth="825.0" style="-fx-background-color: #B2DFDB;">
+               <children>
+                  <ImageView fitHeight="105.0" fitWidth="310.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/books%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="169.0" layoutX="623.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/cap2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="397.0" fitWidth="238.0" layoutX="111.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/list.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="start" layoutX="496.0" layoutY="360.0" mnemonicParsing="false" onAction="#start" prefHeight="45.0" prefWidth="169.0" style="-fx-background-color: #2c4451;" text="START TEST" textFill="WHITE">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow choke="0.04" height="64.0" radius="34.0925" width="74.37" />
+                     </effect></Button>
+                  <Label fx:id="selectedtopic" alignment="CENTER" layoutX="372.0" layoutY="278.0" prefHeight="56.0" prefWidth="403.0" text="TOPIC" textFill="#6573cd">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="65.0" fitWidth="421.0" layoutX="406.0" layoutY="606.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/rack2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="22.0" fitWidth="895.0" layoutX="-5.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/rack11.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="12.0" fitWidth="825.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/rack22.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="188.0" layoutX="614.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/book2%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <ListView fx:id="topic" layoutX="123.0" layoutY="179.0" onMouseClicked="#select" prefHeight="362.0" prefWidth="214.0" />
+                  <Label fx:id="selectedtopic1" layoutX="498.0" layoutY="246.0" text="Selected topic:" textFill="#2c4451">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="459.0" layoutY="200.0" text="CHOOSE A TOPIC" textFill="#2c4451">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

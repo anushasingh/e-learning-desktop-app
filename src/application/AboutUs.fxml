@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="coursesanchorpane" prefHeight="650.0" prefWidth="950.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AboutUsController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" prefHeight="650.0" prefWidth="1024.0">
+        <items>
+          <AnchorPane fx:id="side_pane" maxHeight="650.0" maxWidth="199.0" minHeight="650.0" minWidth="199.0" prefHeight="650.0" prefWidth="199.0" />
+          <AnchorPane maxHeight="650.0" maxWidth="825.0" minHeight="650.0" minWidth="825.0" prefHeight="650.0" prefWidth="825.0" style="-fx-background-color: #bff3f1;">
+               <children>
+                  <Label layoutX="274.0" layoutY="31.0" prefHeight="96.0" prefWidth="366.0" text="ABOUT  US">
+                     <font>
+                        <Font name="Gill Sans MT Ext Condensed Bold" size="66.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutY="137.0" prefHeight="16.0" prefWidth="825.0" style="-fx-background-color: #112d3b;" />
+                  <JFXTextArea fx:id="ans" editable="false" layoutY="153.0" maxWidth="602.0" minWidth="404.0" prefHeight="502.0" prefWidth="600.0" text="Hardware Requirements :&#10;&#10;On Developer Side:&#10;Processor: Intel Core™ i3 or above.&#10;RAM : 4GB.Hard disk: 40GB or above.&#10;Monitor : 15’’ LCD or CRT Monitor or above.&#10;Keyboard: Standard windows keyboard&#10;GPU: NVidia GeForce 500 series and above (or any equivalent GPU)&#10;&#10;On Client Side:&#10;Processor: Dual core or above.&#10;RAM : 4GB.Hard disk: 40GB or above.&#10;Monitor : 15’’ LCD or CRT Monitor or above.&#10;Keyboard: Standard windows keyboard&#10;GPU : NVidia GeForce 500 series and above (or any equivalent GPU)" wrapText="true">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <effect>
+                        <ColorAdjust brightness="-0.3" contrast="0.24" hue="0.92" saturation="0.19" />
+                     </effect></JFXTextArea>
+                  <JFXButton fx:id="hard" layoutX="597.0" layoutY="522.0" onAction="#hardwarereq" prefHeight="126.0" prefWidth="224.0" style="-fx-background-color: #00d7d0;" text="What are the Hardware requirements?" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Arial Narrow" size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow choke="0.1" height="23.0" radius="11.0" width="23.0" />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton fx:id="soft" layoutX="597.0" layoutY="398.0" onAction="#softwarereq" prefHeight="126.0" prefWidth="224.0" style="-fx-background-color: #112d3b;" text="What are the Software requirements?" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Arial Narrow" size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow choke="0.1" height="35.0" radius="17.0" width="35.0" />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton fx:id="why" layoutX="597.0" layoutY="272.0" onAction="#whyj" prefHeight="126.0" prefWidth="224.0" style="-fx-background-color: #00d7d0;" text="Why JavaFx?" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Arial Narrow" size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow choke="0.1" height="23.134999999999998" radius="11.06625" width="23.13" />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton fx:id="what" layoutX="597.0" layoutY="153.0" onAction="#whatis" prefHeight="117.0" prefWidth="224.0" style="-fx-background-color: #112d3b;" text="What is JavaFx?" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Arial Narrow" size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow choke="0.1" height="35.0" radius="17.0" width="35.0" />
+                     </effect>
+                  </JFXButton>
+                  <Separator prefHeight="16.0" prefWidth="825.0" style="-fx-background-color: #112d3b;" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

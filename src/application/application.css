@@ -1,0 +1,26 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+#content
+
+{
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 1024 700;
+    -fx-background-position: center center;
+	-fx-background-image: url(MainMenuPattern.jpg);
+	
+	
+	
+	
+}
+/* 
+.list-view .list-cell:even {
+-fx-background-color: #E3F2FD
+;
+-fx-text-fill: black;
+}
+.list-view .list-cell:odd {
+-fx-background-color: #E3F2FD
+;
+-fx-text-fill: black;
+}*/

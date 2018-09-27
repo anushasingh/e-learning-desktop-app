@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="side_pane" minHeight="650.0" minWidth="199.0" prefHeight="650.0" prefWidth="197.0" style="-fx-background-color: #E3F2FD;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainMenuListController">
+   <children>
+      <Ellipse fill="#90caf9" layoutX="99.0" layoutY="90.0" radiusX="93.0" radiusY="35.0" stroke="#00000022" strokeType="INSIDE" />
+      <ImageView fitHeight="506.0" fitWidth="30.0" layoutX="50.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/shadow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="courses" fitHeight="43.0" fitWidth="199.0" layoutX="1.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/11.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="expertadvice" fitHeight="45.0" fitWidth="199.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/33.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tests" fitHeight="41.0" fitWidth="199.0" layoutX="1.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/22.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="profile" fitHeight="45.0" fitWidth="199.0" layoutX="1.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/44.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="aboutus" fitHeight="51.0" fitWidth="199.0" layoutX="1.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/55lightblue.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="29.5" layoutX="4.5" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/booktranspaent.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="39.0" layoutX="-2.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/pentransparent.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="-1.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/peopletrnsparent.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="59.0" layoutX="-11.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/aboutusnew.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="59.0" layoutX="-8.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/pro.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Courses" layoutX="66.0" layoutY="185.0" prefHeight="26.0" prefWidth="110.0" text="COURSES" textAlignment="CENTER" textFill="#eeecec">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="Tests" layoutX="66.0" layoutY="275.0" prefHeight="28.0" prefWidth="110.0" text="TESTS" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Expertadvice" layoutX="53.0" layoutY="458.0" prefHeight="21.0" prefWidth="136.0" text="EXPERT ADVICE" textFill="#315b48">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Profile" layoutX="58.0" layoutY="364.0" prefHeight="17.0" prefWidth="127.0" text="MY PROFILE" textFill="#dd2424">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Aboutus" layoutX="64.0" layoutY="550.0" prefHeight="17.0" prefWidth="110.0" text="ABOUT US" textAlignment="CENTER" textFill="#272f9a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="59.0" fitWidth="136.0" layoutX="31.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logotransparent.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
